@@ -47,9 +47,15 @@ aside img {
 
 #button {
     position: absolute;
-    bottom: 2%;
+    bottom: 1%;
     left: 44.5%;
+    transition: 0.3s;
 }
+
+.button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
 
 #button input {
     background-color: darkorchid;
@@ -134,3 +140,14 @@ aside img {
         margin: 10px 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #button {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    #button input {
+      margin: 10px 0;
+    }
+  }
