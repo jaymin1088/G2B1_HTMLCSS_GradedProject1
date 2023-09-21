@@ -15,6 +15,11 @@ section {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
 
+#chk_option_error {
+  visibility: hidden;
+  color: red;
+}
+
 aside {
   margin: 0;
   width: 50%;
